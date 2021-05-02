@@ -1,0 +1,73 @@
+.left{
+  width: 200px;
+  text-align: left;
+  padding: 0 0 1rem 1rem;
+}
+.left h1{
+  font-family: cursive;
+}
+.left p{
+  font-size: 10px;
+  opacity: 0.7;
+}
+.right{
+  padding: 0 1rem 0 0;
+}
+.right-1{
+  width: 11rem;
+  background-color: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0 10px 0;
+}
+.right-1 svg {
+  margin-right: 1rem;
+  float: left;
+}
+.right-1 span{
+  margin-left: -50px;
+}
+.right button{
+  background: yellow;
+  width: 12rem;
+  height: 30px;
+  border: none;
+  font-weight: 800;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.right button:hover{
+  background: transparent;
+  border: 1px solid yellow;
+  color: yellow;
+}
+.description{
+  display: flex;
+  align-items: center;
+}
+.description img{
+  width: 100px;
+  height: 15px;
+  margin-left: 1rem;
+}
+
+.card-body{
+  display: flex;
+  align-items: center;
+}
+.card-body:hover{
+    background: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(50px);
+    border-radius: 10px;
+}
+.card-body svg{
+  margin-top: -5px;
+  transition: all 0.5s;
+}
+.card-body svg:hover{
+  transform: rotate(360deg) scale(1.5);
+  
+}
